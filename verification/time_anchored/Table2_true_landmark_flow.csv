@@ -1,0 +1,7 @@
+riskset,threshold_min,threshold_h,availability_n,landmark_n,excluded_before_or_at_landmark,deaths_after_landmark,hospitals
+Hospital,360,6,2662,2642,20,222,168
+ICU,360,6,2662,2563,99,212,166
+Hospital,1440,24,3037,2894,143,242,172
+ICU,1440,24,3037,2149,888,204,160
+Hospital,2160,36,3110,2809,301,230,169
+ICU,2160,36,3110,1663,1447,182,153

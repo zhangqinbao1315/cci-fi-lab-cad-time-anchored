@@ -1,0 +1,4 @@
+database,eligible_n,conventional_ge9,common_with_locked_primary,lab_source,special_rule
+MIMIC-IV,16919,12694,12688,main selected long export,none
+eICU-CRD,7445,5869,5869,historical 04_eicu_analysis_cohort selected values,unknown sex: sex-specific items unevaluable
+SICdb,1638,1414,1414,main selected long export; INR excluded,INR excluded due lower reporting bound at 1.2

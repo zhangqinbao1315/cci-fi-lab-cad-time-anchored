@@ -1,0 +1,14 @@
+domain,raw_name,priority,qc_low,qc_high
+creatinine,creatinine,1,0.1,30
+sodium,sodium,2,90,200
+potassium,potassium,3,1,10
+chloride,chloride,4,60,150
+bicarbonate,bicarbonate,5,5,60
+bicarbonate,Total CO2,6,5,60
+glucose,glucose,7,10,2000
+hemoglobin,Hgb,8,2,25
+wbc,WBC x 1000,9,0.1,200
+platelet,platelets x 1000,10,1,2000
+calcium,calcium,11,3,20
+magnesium,magnesium,13,0.2,10
+inr,PT - INR,14,0.5,20

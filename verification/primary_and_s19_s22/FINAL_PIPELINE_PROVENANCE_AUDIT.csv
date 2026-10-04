@@ -1,0 +1,7 @@
+issue,final_rule
+S20 FI source,locked historical primary FI only; fi_lab_recalc is not used
+S20 available-count source,n_available only
+Sensitivity weights,NO weights in S19-S22
+MIMIC inference,profile-likelihood CI
+eICU inference,hospital-cluster robust HC0
+SICdb inference,Wald CI

@@ -1,0 +1,14 @@
+Code availability statement template after Zenodo release
+
+The analysis code corresponding to this study is available at:
+https://github.com/zhangqinbao1315/cci-fi-lab-cad-time-anchored
+
+A versioned archive of release v1.0.0 is available from Zenodo:
+[[INSERT_VERSION_SPECIFIC_ZENODO_DOI]]
+
+The repository contains no patient-level controlled-access data. The archive
+includes exact executable code for the locked primary analyses and the current
+eICU time-anchored S29/S30/true-landmark analyses, together with aggregate
+verification outputs and the manuscript Source Data workbook. Executable
+coverage for supplementary analyses not preserved in the available code archive
+is described transparently in docs/ANALYSIS_COVERAGE.md.

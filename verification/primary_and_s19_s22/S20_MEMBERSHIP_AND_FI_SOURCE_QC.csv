@@ -1,0 +1,4 @@
+database,locked_primary_n,locked_primary_with_count_ge9,sql_ge9_any_id,locked_primary_missing_count,fi_source
+MIMIC-IV,12688,12683,12689,0,historical locked fi_primary; fi_lab_recalc NOT USED
+eICU-CRD,5869,5869,NA,0,historical locked fi_lab; historical n_available_r
+SICdb,1428,1428,21477,0,historical locked fi_primary; fi_lab_recalc NOT USED

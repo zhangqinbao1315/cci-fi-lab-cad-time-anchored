@@ -1,0 +1,13 @@
+domain,lower,upper
+creatinine,0.5,1.2
+sodium,133,145
+potassium,3.3,5.1
+chloride,96,108
+bicarbonate,22,32
+glucose,70,100
+hemoglobin,13.7,17.5
+wbc,4,10
+platelet,150,400
+calcium,8.4,10.3
+inr,0.9,1.1
+magnesium,1.6,2.6

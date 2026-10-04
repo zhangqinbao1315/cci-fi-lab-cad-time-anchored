@@ -1,0 +1,49 @@
+全新 GitHub + Zenodo 上传说明
+=============================
+
+推荐的新仓库名：
+cci-fi-lab-cad-time-anchored
+
+对应 URL 将是：
+https://github.com/zhangqinbao1315/cci-fi-lab-cad-time-anchored
+
+为什么建议用“新名字”：
+你旧仓库已经有 GitHub Release 和 Zenodo DOI。如果把旧仓库真正删除后又用同一个名字重建，
+旧 DOI 里的 GitHub 链接会指向一个不同的新仓库，反而会制造历史链路混淆。
+因此如果你坚持删除旧仓库，新仓库必须使用一个新名字。
+
+更稳妥的做法仍然是：
+- 旧仓库 Archive（只读）
+- 新仓库使用上面的新名字
+
+上传步骤：
+1. GitHub -> New repository
+2. Repository name:
+   cci-fi-lab-cad-time-anchored
+3. Public
+4. 不要勾选自动生成 README / .gitignore / License
+5. 创建空仓库
+6. 将本 ZIP 解压后的所有文件/文件夹上传到仓库根目录
+7. Commit message 建议：
+   Initial public release aligned with time-anchored manuscript
+8. 检查仓库首页 README 是否显示当前 Time-anchored 论文标题
+9. 创建 GitHub Release：
+   Tag: v1.0.0
+   Release title: v1.0.0 - current time-anchored manuscript analyses
+10. 将新仓库连接 Zenodo，并让 Zenodo 归档 v1.0.0 Release
+11. 取得“version-specific DOI”
+12. 把新 DOI 发给 ChatGPT，我会：
+    - 替换 Manuscript 中唯一的 Zenodo DOI 占位符
+    - 更新 GitHub URL 为新仓库
+    - 再做最后一次投稿包 QC
+    - 给你 FINAL_UPLOAD_READY.zip
+
+发布前请确认：
+- analysis/、sql/、verification/、docs/ 都已经出现在 GitHub
+- verification/current_submission/Additional_file_2_Source_Data.xlsx 可以正常下载
+- README 不再出现旧论文标题或旧 DOI
+- 新 Release 的 tag 确实是 v1.0.0
+
+关于旧仓库：
+我仍建议点击 Settings -> General -> Archive this repository，而不是 Delete this repository。
+如果你坚持删除，也请先确认旧 v1.0.0 ZIP / DOI 记录已经另外留存。

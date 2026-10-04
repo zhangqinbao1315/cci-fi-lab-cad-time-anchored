@@ -1,0 +1,9 @@
+CURRENT CORRECTED ANALYSIS DEFINITION
+====================================
+FI-Lab: current locked 12-domain profile, -24h to 0h, >=9/12.
+CAD(t): CAD diagnosis documented by landmark t.
+CCI(t): Quan mapping from diagnosis tokens documented by t; MI component excluded.
+Landmarks: 6h, 24h, 36h.
+Risk sets: Hospital and stricter ICU.
+Outcome: final in-hospital mortality among patients still at risk at landmark.
+All prespecified thresholds/risk sets retained regardless of P value.

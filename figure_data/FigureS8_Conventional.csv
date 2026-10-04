@@ -1,0 +1,7 @@
+label,or,ci_low,ci_high
+MIMIC-IV: locked primary (common sample),1.293468,1.248657,1.340178
+MIMIC-IV: conventional intervals (common sample),1.332624,1.288405,1.378721
+eICU-CRD: locked primary (common sample),1.211438,1.149628,1.276572
+eICU-CRD: conventional intervals (common sample),1.187363,1.130525,1.247059
+SICdb: locked primary (common sample),1.306355,1.063567,1.604566
+SICdb: conventional intervals; INR excluded,1.481,1.207552,1.816371

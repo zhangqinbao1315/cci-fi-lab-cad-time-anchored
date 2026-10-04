@@ -1,0 +1,17 @@
+# Restricted/local patient-level data
+data/
+data_raw/
+patient_level/
+local_data/
+*.rds
+*.RData
+*.parquet
+*.feather
+
+# Local analysis output/cache
+output/
+output_local/
+.Rhistory
+.Rproj.user/
+.DS_Store
+Thumbs.db
